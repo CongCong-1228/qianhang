@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+  },
+  "name": "qianhang",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
